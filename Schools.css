@@ -1,0 +1,144 @@
+/*CSS Variables*/
+:root{
+--primary:#ddd;
+--dark:#333;
+--light:#fff;
+--shadow:0 1px 5px rgba(104,104,104,0.8);
+--grad:linear-gradient( to right, #00b7ff ,#ffffc7);
+--transb:linear-gradient( to left, #00b7ff ,#ffffc7);
+
+}
+
+html{
+	box-sizing: border-box;
+	font-family: Arial,Helvetica,sans-serif;
+	color:var(--light);
+user-select: none;
+}
+body{
+
+	background-color:var(--primary);
+	margin:10px;
+	
+	line-height: 1.4;
+width:98%;
+}
+.all_schools{
+
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: .8rem;
+text-align: center;
+
+
+
+
+
+
+
+}
+.one{
+
+	background-color: #00b7ff;
+	text-align: center;
+	padding: 8px;
+	font-size: 2rem;
+	border-radius: 5px;
+}
+
+.one:hover{
+cursor: pointer;
+
+
+
+}
+
+.searching_area{
+
+color:var(--dark);
+text-align: center;
+
+}
+
+
+.controls1,.controls2,.controls3{
+	text-align: center;
+}
+.controls1 a{
+
+
+color:black;
+text-decoration: none;
+font-size: 25px;
+background-color: var(--light);
+box-shadow: var(--shadow);
+padding: 20px;
+
+}
+
+.controls2 a{
+
+
+color:black;
+text-decoration: none;
+font-size: 25px;
+background-color: var(--light);
+box-shadow: var(--shadow);
+padding: 20px;
+
+}
+
+.controls3 a{
+
+
+color:black;
+text-decoration: none;
+font-size: 25px;
+background-color: var(--light);
+box-shadow: var(--shadow);
+padding: 20px;
+
+}
+
+
+.chosen{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 1rem;
+
+
+}
+.chosen{
+     text-align: center;
+	display: none;
+}
+.chosen p{
+font-size: 20px;
+padding: 20px;
+background-color: blue;
+color: var(--light);
+
+
+
+}
+
+.two{
+
+
+	background-color: green;
+	text-align: center;
+	padding: 8px;
+	font-size: 2rem;
+	border-radius: 5px;
+}
+
+.two:hover{
+cursor: pointer;
+
+
+
+}
+
+
+
+}

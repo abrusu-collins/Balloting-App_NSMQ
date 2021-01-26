@@ -1,0 +1,159 @@
+/*CSS Variables*/
+:root{
+--primary:#ddd;
+--dark:#333;
+--light:#fff;
+--shadow:0 1px 5px rgba(104,104,104,0.8);
+--grad:linear-gradient( to right, #00b7ff ,#ffffc7);
+--transb:linear-gradient( to left, #00b7ff ,#ffffc7);
+
+}
+
+html{
+	box-sizing: border-box;
+	font-family: Arial,Helvetica,sans-serif;
+	color:var(--light);
+
+}
+body{
+
+	background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 13px,rgba(0,0,0,0.03) 13px, rgba(0,0,0,0.03) 24px,transparent 24px, transparent 62px,rgba(0,0,0,0.03) 62px, rgba(0,0,0,0.03) 96px),repeating-radial-gradient(circle at center center, rgb(255,255,255) 0px, rgb(255,255,255) 14px,rgb(255,255,255) 14px, rgb(255,255,255) 18px,rgb(255,255,255) 18px, rgb(255,255,255) 28px,rgb(255,255,255) 28px, rgb(255,255,255) 32px); background-size: 21px 21px;
+	margin:10px;
+	user-select: none;
+	line-height: 1.4;
+width:98%;
+}
+.all_schools{
+
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: .8rem;
+text-align: center;
+
+
+
+
+
+
+
+}
+.one{
+
+	background-color: #00b7ff;
+	text-align: center;
+	padding: 8px;
+	font-size: 2rem;
+	border-radius: 5px;
+}
+
+.one:hover{
+cursor: pointer;
+
+
+
+}
+
+.two{
+
+
+	background-color: green;
+	text-align: center;
+	padding: 8px;
+	font-size: 2rem;
+	border-radius: 5px;
+}
+
+.two:hover{
+cursor: pointer;
+
+
+
+}
+
+.searching_area{
+
+color: #1b19a0;
+text-align: center;
+font-size: 30px;
+
+}
+
+
+.controls1,.controls2,.controls3{
+	text-align: center;
+}
+
+.controls1 a:hover,.controls2 a:hover,.controls3 a:hover{
+
+
+color: var(--light);
+background-color: var(--dark);
+}
+
+
+.controls1 a{
+
+
+color:black;
+text-decoration: none;
+font-size: 25px;
+background-color: var(--light);
+box-shadow: var(--shadow);
+padding: 20px;
+
+}
+
+.controls2 a{
+
+
+color:black;
+text-decoration: none;
+font-size: 25px;
+background-color: var(--light);
+box-shadow: var(--shadow);
+padding: 20px;
+
+display: none;
+
+}
+
+.controls3 a{
+
+
+color:black;
+text-decoration: none;
+font-size: 25px;
+background-color: var(--light);
+box-shadow: var(--shadow);
+padding: 20px;
+display: none;
+
+}
+
+
+.chosen{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 1rem;
+
+
+}
+.chosen{
+     text-align: center;
+	display: none;
+}
+.chosen p{
+font-size: 20px;
+padding: 20px;
+background-color:#1b19a0;
+color: var(--light);
+
+
+
+}
+
+#up{
+	background-color:  #00b7ff ;
+	font-size: 30px;
+	border-radius: 5px;
+}
